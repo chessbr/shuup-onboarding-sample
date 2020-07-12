@@ -1,0 +1,6 @@
+include README.md
+
+recursive-include shuup_onboarding_sample/locale *.mo
+recursive-include shuup_onboarding_sample/templates *.jinja *.txt
+recursive-include shuup_onboarding_sample/static *.*
+recursive-exclude shuup_onboarding_sample/static *.map
